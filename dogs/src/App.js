@@ -20,7 +20,7 @@ function App() {
                 <Link to='/'>Home</Link>
               </li>
               <li>
-                <Link to='/favorites'>Favorites</Link>
+                <Link to='/favorites'>Casino's and the other thing I can do </Link>
               </li>
             </ul>
           </nav>
