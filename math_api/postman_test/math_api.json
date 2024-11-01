@@ -1,0 +1,144 @@
+{
+	"info": {
+		"_postman_id": "5e52298d-08dc-490e-b3f1-a8457957a1f8",
+		"name": "Training",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:5000/min",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"amount\" : 5,\r\n    \"numbers\" : [5, 6, 1, 6, 2]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/min",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"min"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/max",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"amount\" : 5,\r\n    \"numbers\" : [5, 6, 1, 6, 2, 585]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/max",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"max"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/avg",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"amount\" : 2,\r\n    \"numbers\" : [2, 2, 3, 3, 3, 4, 5, 6, 6, 6, 6]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/avg",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"avg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/median",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"amount\" : 5,\r\n    \"numbers\" : [2, 2, 3, 3, 3, 4, 5, 6, 6, 6, 6]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/median",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"median"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/percentile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"amount\" : 50,\r\n    \"numbers\" : [15, 20, 35, 40, 50]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/percentile",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"percentile"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
